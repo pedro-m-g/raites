@@ -3,7 +3,7 @@
 @section('content')
 <div class="container-fluid">
     <div class="row">
-        @include('carousel')
+        @include('partials.carousel')
     </div>
 </div>
 @endsection

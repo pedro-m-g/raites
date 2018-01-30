@@ -41,6 +41,25 @@
                             </div>
                         </div>
 
+                        <div class="form-group">
+                          <label class="col-md-4 control-label">Situación actual</label>
+                          
+                          <div class="col-md-8">
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="role" value="user" checked>
+                                  Requiero apoyo con el transporte
+                                </label>
+                              </div>
+                              <div class="radio">
+                                <label>
+                                  <input type="radio" name="role" value="supporter">
+                                  Ofrezco apoyo con el transporte
+                                </label>
+                              </div>
+                          </div>
+                        </div>
+
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                             <label for="password" class="col-md-4 control-label">Contraseña</label>
 
